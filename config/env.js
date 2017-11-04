@@ -1,5 +1,6 @@
 'use strict';
 
+const NODE_PATH='../src';
 const fs = require('fs');
 const path = require('path');
 const paths = require('./paths');

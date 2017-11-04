@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import routes from './routes';
 import registerServiceWorker from './registerServiceWorker';
 
-import './themes/styles';
+import 'themes/styles';
 
 ReactDOM.render(
 	routes, 
