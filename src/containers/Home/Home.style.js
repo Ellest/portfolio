@@ -10,18 +10,29 @@ export const ImageDiv = styled.div`
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	border-radius: 10px;
+	max-height: 700px;
 
 	display: flex;
 	flex-direction: column;
 	align-content: center;
-	justify-content: center;
+	justify-content: flex-start;
 
-	text-align: center;
-	font-size: 1em;
+	//text-align: center;
+	font-size: 0.8em;
 
 	h1 {
+		position: relative;
+		top: 10%;
+		left: 5%;
 		margin-bottom: 0;
-		text-color: white;
+		color: #59543D;
+	}
+
+	h3 {
+		margin-top: 5;
+		color: #59543D;
+		margin-left: 10px;
 	}
 `;
 
@@ -38,6 +49,10 @@ export const Slider = styled.p`
 		transform-origin: left;
 		transform: rotateY(90deg);
 		transition: transform 1s;
+	}
+
+	&:hover {
+
 	}
 
 	${({hide}) => hide && css`

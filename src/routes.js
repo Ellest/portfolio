@@ -3,6 +3,7 @@ import { IndexRoute, Router, Route, hashHistory } from 'react-router';
 import Home from 'containers/Home/Home';
 import App from 'containers/App/App';
 import Projects from 'containers/Projects/Projects';
+import About from 'containers/About/About';
 
 export default (
 	<Router history={hashHistory}>
@@ -10,6 +11,7 @@ export default (
 			// will render the home component
 			<IndexRoute component={Home}/>
 			<Route path="/projects" component={Projects}/>
+			<Route path="/about" component={About}/>
 		</Route>
 	</Router>
 );

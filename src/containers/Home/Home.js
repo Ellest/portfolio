@@ -11,7 +11,6 @@ class Home extends Component {
 			<Container>
 				<ImageDiv>
 					<h1>Elliot Yun</h1>
-					<Link>aa</Link>
 				</ImageDiv>
 				<WhenInView>
 					{/*

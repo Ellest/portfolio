@@ -24,4 +24,4 @@ class About extends Component {
 	}
 }
 
-export default App;
+export default About;
