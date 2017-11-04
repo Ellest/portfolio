@@ -1,19 +1,15 @@
 import React, { Component, PropTypes } from 'react';
-import styled from 'styled-components';
-import Container from '../themes/grid/container'
+import {Container} from '../../themes/grid'
 
-const Image = styled.img`
-	width: 100%;
-`;
+class About extends Component {
 
-export default class Home extends Component {
+	/* What does this do? */
 	static propTypes = {};
 
 	render() {
 		return (
 			<Container>
-				<Image src={require('../assets/main.jpg')} alt="main_img"/>
-				<p> 
+				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
 					sed do eiusmod tempor incididunt ut labore et dolore magna 
 					aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
@@ -27,3 +23,5 @@ export default class Home extends Component {
 		);
 	}
 }
+
+export default App;
