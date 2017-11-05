@@ -5,6 +5,7 @@ const homeImage = (require('assets/grass.jpg'));
 export const ImageDiv = styled.div`
 	height: 100vh;
 	background-image: url('${ homeImage }');
+	opacity: 0.77;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;

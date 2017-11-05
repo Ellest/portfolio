@@ -37,6 +37,7 @@ export const NavigationContainer = styled(Flex)`
 	right: 0;
 	//padding-top: 20px;
 	padding-right: 130px;
+	z-index: 99;
 `;
 
 export const NavigationItem = styled(Link)`
