@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import {Container} from 'themes/grid'
-import { Image, ImageDiv, Slider, Link } from 'containers/Home/Home.style'
+import { ImageDiv, Slider, Link } from 'containers/Home/Home.style'
 import WhenInView from 'containers/Components/WhenInView/WhenInView'
 
 class Home extends Component {

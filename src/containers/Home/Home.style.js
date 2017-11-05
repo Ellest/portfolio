@@ -1,12 +1,10 @@
 import styled, {css} from 'styled-components';
 
-export const Image = styled.img`
-	width: 100%;
-`;
+const homeImage = (require('assets/grass.jpg'));
 
 export const ImageDiv = styled.div`
 	height: 100vh;
-	background-image: url('${require('../../assets/grass.jpg')}');
+	background-image: url('${ homeImage }');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;

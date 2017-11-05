@@ -9,7 +9,7 @@ export const Div = styled.div`
 export const Container = styled.div`
 	padding-left: 120px;
 	padding-right: 120px;
-	padding-top: 30px;
+	padding-top: 35px;
 `;
 
 export const Flex = styled(Div)`
