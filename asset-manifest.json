@@ -1,11 +1,13 @@
 {
   "main.css": "static/css/main.f1778c2a.css",
   "main.css.map": "static/css/main.f1778c2a.css.map",
-  "main.js": "static/js/main.345afdd0.js",
-  "main.js.map": "static/js/main.345afdd0.js.map",
+  "main.js": "static/js/main.b2ff6f1e.js",
+  "main.js.map": "static/js/main.b2ff6f1e.js.map",
+  "static/media/Elliot_Yun_Resume.pdf": "static/media/Elliot_Yun_Resume.825f8cd8.pdf",
   "static/media/Octocat.png": "static/media/Octocat.ef468e27.png",
   "static/media/flare.png": "static/media/flare.22d1040d.png",
   "static/media/flicker.jpg": "static/media/flicker.2cd8bd7d.jpg",
   "static/media/grass.jpg": "static/media/grass.09abe146.jpg",
-  "static/media/logo.svg": "static/media/logo.5d5d9eef.svg"
+  "static/media/logo.svg": "static/media/logo.5d5d9eef.svg",
+  "static/media/soundcloud-icon.png": "static/media/soundcloud-icon.bcfd5f62.png"
 }
